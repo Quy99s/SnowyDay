@@ -1,55 +1,33 @@
 {
-  "assets/Script/Player.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "./Joystick": "assets/Script/Joystick.js",
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Player.js",
-    "mTimestamp": 1630139232302
-  },
-  "assets/Script/Joystick.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Joystick.js",
-    "mTimestamp": 1630143722769
-  },
-  "assets/Script/ScoreGame.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/ScoreGame.js",
-    "mTimestamp": 1630143727158
+  "quick-pack:/cce/internal/x/cc.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/x/cc.js",
+    "mTimestamp": 1630352061056,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/cc"
   },
   "assets/Script/Score.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/Script/Score.js",
-    "mTimestamp": 1630144052014
-  },
-  "quick-pack:/cce/internal/x/cc.js": {
-    "imports": {},
-    "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1630144779197,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/cc"
+    "mTimestamp": 1630352061185
   },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
-      "file:///Users/backup/Desktop/SnowyDay/assets/Script/Joystick.ts": "assets/Script/Joystick.js",
-      "file:///Users/backup/Desktop/SnowyDay/assets/Script/Player.ts": "assets/Script/Player.js",
-      "file:///Users/backup/Desktop/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js"
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": "assets/Script/MainGameControler.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1630144779214,
+    "mTimestamp": 1630353381353,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
-  "quick-pack:/cce/internal/code-quality/cr.js": {
-    "imports": {},
-    "physicalLocation": "cce/internal/code-quality/cr.js",
-    "mTimestamp": 1630144779233
+  "assets/Script/MainGameControler.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/MainGameControler.js",
+    "mTimestamp": 1630353381446
   }
 }

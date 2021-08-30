@@ -1,8 +1,8 @@
-System.register(["file:///Users/backup/Desktop/SnowyDay/assets/Script/Joystick.ts", "file:///Users/backup/Desktop/SnowyDay/assets/Script/Player.ts", "file:///Users/backup/Desktop/SnowyDay/assets/Script/Score.ts"], function (_export, _context) {
+System.register(["file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts", "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts"], function (_export, _context) {
   "use strict";
 
   return {
-    setters: [function (_fileUsersBackupDesktopSnowyDayAssetsScriptJoystickTs) {}, function (_fileUsersBackupDesktopSnowyDayAssetsScriptPlayerTs) {}, function (_fileUsersBackupDesktopSnowyDayAssetsScriptScoreTs) {}],
+    setters: [function (_fileUsersBackupSnowyDaySnowyDayAssetsScriptMainGameControlerTs) {}, function (_fileUsersBackupSnowyDaySnowyDayAssetsScriptScoreTs) {}],
     execute: function () {}
   };
 });

@@ -6,15 +6,15 @@
     "strict": true,
     "types": [
       "./temp/declarations/cc.env",
-      "./temp/declarations/jsb",
-      "./temp/declarations/cc"
+      "./temp/declarations/cc",
+      "./temp/declarations/jsb"
     ],
     "paths": {
       "db://internal/*": [
         "/Applications/CocosCreator/Creator/3.1.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "/Users/backup/Desktop/SnowyDay/assets/*"
+        "/Users/backup/SnowyDay/SnowyDay/assets/*"
       ]
     },
     "experimentalDecorators": true,
