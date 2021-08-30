@@ -1,0 +1,974 @@
+{
+  "/Users/backup/Desktop/SnowyDay/assets/Data.meta": {
+    "time": 1630091534734.4812
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data": {
+    "time": 1630142612628.5571,
+    "uuid": "742eae73-a6ad-47cf-ab0b-773034daae0a",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes.meta": {
+    "time": 1630091642623.2761
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512.meta": {
+    "time": 1630091642623.617
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/1.png.meta": {
+    "time": 1630091642631.5676
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/10.png.meta": {
+    "time": 1630091642633.6726
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/11.png.meta": {
+    "time": 1630091642635.1638
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/12.png.meta": {
+    "time": 1630091642632.6267
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/13.png.meta": {
+    "time": 1630091642634.8103
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/14.png.meta": {
+    "time": 1630091642642.7502
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/15.png.meta": {
+    "time": 1630091642641.3284
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/16.png.meta": {
+    "time": 1630091642643.831
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/2.png.meta": {
+    "time": 1630091642645.4033
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/3.png.meta": {
+    "time": 1630091642647.2112
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/4.png.meta": {
+    "time": 1630091642654.2253
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/5.png.meta": {
+    "time": 1630091642656.6685
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/6.png.meta": {
+    "time": 1630091642657.0308
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/7.png.meta": {
+    "time": 1630091642658.2327
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/8.png.meta": {
+    "time": 1630091642660.115
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/512X512/9.png.meta": {
+    "time": 1630091642663.9038
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/1.png.meta": {
+    "time": 1630091710737.6006
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/2.png.meta": {
+    "time": 1630091710665.0789
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/3.png.meta": {
+    "time": 1630091710816.611
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/4.png.meta": {
+    "time": 1630091710856.1638
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/7.png.meta": {
+    "time": 1630091710674.9927
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/6.png.meta": {
+    "time": 1630091710673.0771
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/5.png.meta": {
+    "time": 1630091710895.9753
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/8.png.meta": {
+    "time": 1630091710676.8
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/9.png.meta": {
+    "time": 1630091710678.7441
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/11.png.meta": {
+    "time": 1630091711157.5024
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/10.png.meta": {
+    "time": 1630091711117.6372
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/12.png.meta": {
+    "time": 1630091710684.3018
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/13.png.meta": {
+    "time": 1630091711243.535
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/15.png.meta": {
+    "time": 1630091711326.9424
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/14.png.meta": {
+    "time": 1630091711283.7278
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Snowflakes/16.png.meta": {
+    "time": 1630091711367.5815
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Script.meta": {
+    "time": 1630091744032.702
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Script": {
+    "time": 1630144111986.4917,
+    "uuid": "e08f6993-6d37-4c38-95ab-88771c9c18ff",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Prefab.meta": {
+    "time": 1630091755158.1343
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Prefabs.meta": {
+    "time": 1630091755158.1343
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Prefab": {
+    "time": 1630091755156.6787,
+    "uuid": "872f8dbd-7a9f-4e40-b0de-47c1ce6d95bb",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite.meta": {
+    "time": 1630091837961.7942
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite": {
+    "time": 1630142612628.5571,
+    "uuid": "c3d39158-4c5f-49e8-acbe-d66a4b2ea8cc",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes.meta": {
+    "time": 1630091642623.2761
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/1.png.meta": {
+    "time": 1630091710737.6006
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/10.png.meta": {
+    "time": 1630091711117.6372
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/11.png.meta": {
+    "time": 1630091711157.5024
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/12.png.meta": {
+    "time": 1630091710684.3018
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/13.png.meta": {
+    "time": 1630091711243.535
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/14.png.meta": {
+    "time": 1630091711283.7278
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/15.png.meta": {
+    "time": 1630091711326.9424
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/16.png.meta": {
+    "time": 1630091711367.5815
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/2.png.meta": {
+    "time": 1630091710665.0789
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/3.png.meta": {
+    "time": 1630091710816.611
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/4.png.meta": {
+    "time": 1630091710856.1638
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/5.png.meta": {
+    "time": 1630091710895.9753
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/6.png.meta": {
+    "time": 1630091710673.0771
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/7.png.meta": {
+    "time": 1630091710674.9927
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/8.png.meta": {
+    "time": 1630091710676.8
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/9.png.meta": {
+    "time": 1630091710678.7441
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes": {
+    "time": 1630097142713.5808,
+    "uuid": "16a5067d-a205-4b84-91de-cd7d5da5604a",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/scene.scene.meta": {
+    "time": 1630091865914.2166
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/MainGame.scene.meta": {
+    "time": 1630091865914.2166
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/MainGame.scene": {
+    "time": 1630144116819.0647,
+    "uuid": "059d4610-e819-40e9-a441-7e188d51f664",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32.meta": {
+    "time": 1630092330302.8755
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64.meta": {
+    "time": 1630092330303.1687
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/1.png.meta": {
+    "time": 1630092356515.792
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/10.png.meta": {
+    "time": 1630092356534.7507
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/11.png.meta": {
+    "time": 1630092356536.4001
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/12.png.meta": {
+    "time": 1630092356538.1428
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/13.png.meta": {
+    "time": 1630092356540.0479
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/14.png.meta": {
+    "time": 1630092356541.857
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/15.png.meta": {
+    "time": 1630092356544.0024
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/16.png.meta": {
+    "time": 1630092356545.8884
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/2.png.meta": {
+    "time": 1630092356518.3115
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/3.png.meta": {
+    "time": 1630092356520.3975
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/4.png.meta": {
+    "time": 1630092356522.5264
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/5.png.meta": {
+    "time": 1630092356524.2524
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/6.png.meta": {
+    "time": 1630092356526.125
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/7.png.meta": {
+    "time": 1630092356528.5366
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/8.png.meta": {
+    "time": 1630092356530.5298
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/32X32/9.png.meta": {
+    "time": 1630092356532.861
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/1.png.meta": {
+    "time": 1630092367554.5208
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/10.png.meta": {
+    "time": 1630092367573.0103
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/11.png.meta": {
+    "time": 1630092367574.8242
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/12.png.meta": {
+    "time": 1630092367576.8003
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/13.png.meta": {
+    "time": 1630092367578.8945
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/14.png.meta": {
+    "time": 1630092367580.6875
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/15.png.meta": {
+    "time": 1630092367582.9668
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/16.png.meta": {
+    "time": 1630092367584.617
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/2.png.meta": {
+    "time": 1630092367556.9055
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/3.png.meta": {
+    "time": 1630092367558.8247
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/4.png.meta": {
+    "time": 1630092367560.9883
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/5.png.meta": {
+    "time": 1630092367562.7815
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/6.png.meta": {
+    "time": 1630092367564.4753
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/7.png.meta": {
+    "time": 1630092367567.3313
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/8.png.meta": {
+    "time": 1630092367569.1323
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/64X64/9.png.meta": {
+    "time": 1630092367570.9077
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32.meta": {
+    "time": 1630092330302.8755
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/1.png.meta": {
+    "time": 1630092356515.792
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/10.png.meta": {
+    "time": 1630092356534.7507
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/11.png.meta": {
+    "time": 1630092356536.4001
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/12.png.meta": {
+    "time": 1630092356538.1428
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/13.png.meta": {
+    "time": 1630092356540.0479
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/14.png.meta": {
+    "time": 1630092356541.857
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/15.png.meta": {
+    "time": 1630092356544.0024
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/16.png.meta": {
+    "time": 1630092356545.8884
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/2.png.meta": {
+    "time": 1630092356518.3115
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/3.png.meta": {
+    "time": 1630092356520.3975
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/4.png.meta": {
+    "time": 1630092356522.5264
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/5.png.meta": {
+    "time": 1630092356524.2524
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/6.png.meta": {
+    "time": 1630092356526.125
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/7.png.meta": {
+    "time": 1630092356528.5366
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/8.png.meta": {
+    "time": 1630092356530.5298
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/9.png.meta": {
+    "time": 1630092356532.861
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32": {
+    "time": 1630091302815.1206,
+    "uuid": "13c2f504-4977-4d9c-af31-bece1e08f9dc",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/10.png": {
+    "time": 1478861531000,
+    "uuid": "3401fc35-6937-435f-a690-69a8ad26a4f9",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/1.png": {
+    "time": 1478861545000,
+    "uuid": "39439b26-f97e-4a89-bcbe-a4a12a9f7a05",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/11.png": {
+    "time": 1478861528000,
+    "uuid": "9809b347-2e7e-40df-9f4d-c133c57e30b4",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/12.png": {
+    "time": 1478861547000,
+    "uuid": "c8708bc6-690f-4519-ac68-683dba407c5c",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/13.png": {
+    "time": 1478861542000,
+    "uuid": "b3020f8c-d72a-45d4-9b5a-c0f06031427e",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/16.png": {
+    "time": 1478861546000,
+    "uuid": "aed75379-9fab-4bdf-8584-b1e99a2f2664",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/14.png": {
+    "time": 1478861548000,
+    "uuid": "eac16f9a-7aae-4611-8ecf-5a6c95f09af7",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/15.png": {
+    "time": 1478861548000,
+    "uuid": "98aae46b-1003-4144-9987-9c8b52480a4e",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/2.png": {
+    "time": 1478861530000,
+    "uuid": "a445109f-98ea-484f-a2f4-87447b5ebdb6",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/3.png": {
+    "time": 1478861539000,
+    "uuid": "e4b145cb-96ad-472d-8f1f-dfc0c7ff1955",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/4.png": {
+    "time": 1478861537000,
+    "uuid": "55446b5c-3f8c-4eec-a3e0-7502ae87000d",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/5.png": {
+    "time": 1478861533000,
+    "uuid": "b074f2a9-4289-4506-8cd7-5d643ef17b0a",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/6.png": {
+    "time": 1478861530000,
+    "uuid": "c394472e-1dbd-4013-8088-0b0a4d9c2103",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/7.png": {
+    "time": 1478861538000,
+    "uuid": "fa3d37f5-e76d-438e-84af-b227448fe339",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/8.png": {
+    "time": 1478861544000,
+    "uuid": "28808cec-f1f6-4408-a631-5763805d983b",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/9.png": {
+    "time": 1478861550000,
+    "uuid": "12a4e908-3825-4d59-8acf-672e1799787f",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64.meta": {
+    "time": 1630092330303.1687
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/1.png.meta": {
+    "time": 1630092367554.5208
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/10.png.meta": {
+    "time": 1630092367573.0103
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/11.png.meta": {
+    "time": 1630092367574.8242
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/12.png.meta": {
+    "time": 1630092367576.8003
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/13.png.meta": {
+    "time": 1630092367578.8945
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/14.png.meta": {
+    "time": 1630092367580.6875
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/15.png.meta": {
+    "time": 1630092367582.9668
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/16.png.meta": {
+    "time": 1630092367584.617
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/2.png.meta": {
+    "time": 1630092367556.9055
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/3.png.meta": {
+    "time": 1630092367558.8247
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/4.png.meta": {
+    "time": 1630092367560.9883
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/5.png.meta": {
+    "time": 1630092367562.7815
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/6.png.meta": {
+    "time": 1630092367564.4753
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/7.png.meta": {
+    "time": 1630092367567.3313
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/8.png.meta": {
+    "time": 1630092367569.1323
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/9.png.meta": {
+    "time": 1630092367570.9077
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64": {
+    "time": 1630091302794.3308,
+    "uuid": "195c0890-c04b-43f7-8149-3da97dc6cb76",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/10.png": {
+    "time": 1478861549000,
+    "uuid": "58c089ed-2df7-49a2-ae52-43f54e3de532",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/1.png": {
+    "time": 1478861549000,
+    "uuid": "3755cf1c-c1e3-4cb6-bbba-c010ceba781a",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/11.png": {
+    "time": 1478861536000,
+    "uuid": "355a77b0-7e68-47a5-bd03-2cde264acf38",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/12.png": {
+    "time": 1478861532000,
+    "uuid": "bc7e31f8-1bb3-4c4d-b0b5-00a6f8255798",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/13.png": {
+    "time": 1478861543000,
+    "uuid": "fbcc278c-fa0f-4b82-a923-d7a43b23be8d",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/14.png": {
+    "time": 1478861546000,
+    "uuid": "b486a85f-86e5-4d31-88fe-4994d739567c",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/16.png": {
+    "time": 1478861544000,
+    "uuid": "5f663b9b-b15f-4fbc-afc2-f70c9c6deb87",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/15.png": {
+    "time": 1478861534000,
+    "uuid": "911ac7ec-83ca-49d7-9301-126b198cba45",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/2.png": {
+    "time": 1478861528000,
+    "uuid": "8d23a507-75e2-42aa-90dd-f3bb34210822",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/3.png": {
+    "time": 1478861535000,
+    "uuid": "39a22d56-3f0a-4550-a47a-81c8f1ae1f09",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/4.png": {
+    "time": 1478861551000,
+    "uuid": "95b8b5aa-ce09-434e-8aeb-0897d8264bc0",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/6.png": {
+    "time": 1478861536000,
+    "uuid": "21fd953f-f1ca-47ec-a7bf-b7b47ae169b4",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/5.png": {
+    "time": 1478861537000,
+    "uuid": "19c03979-0d2a-47b9-b31d-e71872a1c302",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/7.png": {
+    "time": 1478861530000,
+    "uuid": "149f5fc4-ff90-4d13-8563-646ad4a3cb2c",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/8.png": {
+    "time": 1478861531000,
+    "uuid": "2a7cef98-ff3e-400f-8f7e-1a4215be8f2a",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/9.png": {
+    "time": 1478861543000,
+    "uuid": "74b2f7ed-dc6e-408c-a0f6-efa80f0393e1",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512.meta": {
+    "time": 1630092475855.336
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/1.png.meta": {
+    "time": 1630092486519.6482
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/10.png.meta": {
+    "time": 1630092486916.39
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/11.png.meta": {
+    "time": 1630092486961.8904
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/12.png.meta": {
+    "time": 1630092486465.252
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/13.png.meta": {
+    "time": 1630092487052.8564
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/14.png.meta": {
+    "time": 1630092487094.6497
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/15.png.meta": {
+    "time": 1630092487140.8374
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/16.png.meta": {
+    "time": 1630092487186.184
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/2.png.meta": {
+    "time": 1630092486445.2683
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/3.png.meta": {
+    "time": 1630092486603.095
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/4.png.meta": {
+    "time": 1630092486643.4229
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/5.png.meta": {
+    "time": 1630092486687.6702
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/6.png.meta": {
+    "time": 1630092486453.1519
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/7.png.meta": {
+    "time": 1630092486454.9558
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/8.png.meta": {
+    "time": 1630092486457.0496
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/9.png.meta": {
+    "time": 1630092486459.1528
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512": {
+    "time": 1630091302868.3547,
+    "uuid": "2b25f1c9-334e-4241-81d2-e47730d9d0cd",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/12.png": {
+    "time": 1478861547000,
+    "uuid": "c9f5044b-9448-45ed-ac71-542541908bce",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/10.png": {
+    "time": 1478861541000,
+    "uuid": "b1c94ad4-a3ee-4d03-a7f9-81be41c339e8",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/1.png": {
+    "time": 1478861535000,
+    "uuid": "50a4878d-ab0e-4323-aca9-18792b8eb34f",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/11.png": {
+    "time": 1478861529000,
+    "uuid": "16e680ba-34ad-48e3-bfbd-60be0500f5aa",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/13.png": {
+    "time": 1478861534000,
+    "uuid": "c82615d1-188d-41d5-8e03-8d19fb2155ca",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/14.png": {
+    "time": 1478861541000,
+    "uuid": "da6afda3-e04a-4140-8cd4-4a8761183564",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/15.png": {
+    "time": 1478861532000,
+    "uuid": "519fc6e0-e669-460f-8ad2-42eabe941665",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/2.png": {
+    "time": 1478861552000,
+    "uuid": "602cbfa7-317a-44dc-9698-7e22426e159d",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/16.png": {
+    "time": 1478861539000,
+    "uuid": "8481006d-2ecd-4a16-b39e-d5d297f232ba",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/3.png": {
+    "time": 1478861533000,
+    "uuid": "15b2e41a-1aed-424d-ade7-4755a94ebfbc",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/4.png": {
+    "time": 1478861550000,
+    "uuid": "fa08a84c-08c8-4be3-940f-48f7d3812cf0",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/5.png": {
+    "time": 1478861544000,
+    "uuid": "ebe1ec0f-7cea-4e47-90e9-4ec51d41de0e",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/6.png": {
+    "time": 1478861540000,
+    "uuid": "f4144bdd-95da-4132-b941-ac09fff307f1",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/8.png": {
+    "time": 1478861540000,
+    "uuid": "2fa1c9a1-fc69-4ad2-a12c-eaa93933fe8f",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/7.png": {
+    "time": 1478861538000,
+    "uuid": "27e5a785-7eb7-481d-938e-a2d5ce02acc6",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/9.png": {
+    "time": 1478861542000,
+    "uuid": "5bfbc804-0ddc-482c-b0ad-57da3d3bd3ff",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG.jpg.meta": {
+    "time": 1630096993397.1892
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Snowflakes/BG2.jpg.meta": {
+    "time": 1630097139886.9502
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG2.jpg.meta": {
+    "time": 1630097139886.9502
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG3.jpg.meta": {
+    "time": 1630135217949.7112
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG4.jpg.meta": {
+    "time": 1630135217953.2024
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG5.jpg.meta": {
+    "time": 1630135217955.5876
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG.meta": {
+    "time": 1630135223893.3289
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG": {
+    "time": 1630135800662.7834,
+    "uuid": "f459ba2a-79ca-4b9d-ae11-321682261ee4",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG/BG2.jpg.meta": {
+    "time": 1630097139886.9502
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG/BG.jpg.meta": {
+    "time": 1630096993397.1892
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG/BG3.jpg.meta": {
+    "time": 1630135217949.7112
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG/BG4.jpg.meta": {
+    "time": 1630135217953.2024
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG/BG4.jpg": {
+    "time": 1630134788497.1458,
+    "uuid": "c0134cfe-519a-4587-8e58-1f685e958773",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/BG/BG5.jpg.meta": {
+    "time": 1630135217955.5876
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Script/Player.ts.meta": {
+    "time": 1630138835443.7131
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Script/Player.ts": {
+    "time": 1630139227561.8735,
+    "uuid": "6d183ba6-03de-4de5-93a0-228f451e3048",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Script/Joystick.ts.meta": {
+    "time": 1630138991193.387
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Script/Joystick.ts": {
+    "time": 1630143263644.3987,
+    "uuid": "e8255341-1580-44f4-b828-00c343e33479",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/JoyStick.meta": {
+    "time": 1630140085088.682
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/JoyStick/circle-border-alpha.png.meta": {
+    "time": 1630140097088.9048
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/JoyStick": {
+    "time": 1630140565383.804,
+    "uuid": "80e097fc-6eee-44db-a385-33c8bf389dca",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/JoyStick/circle-border-alpha.png": {
+    "time": 1615133451000,
+    "uuid": "2ddd0f77-54fd-43fb-aac4-024ad51a8bcb",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Addicitve.mtl.meta": {
+    "time": 1630142303158.167
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin.meta": {
+    "time": 1630142468523.2158
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/Additive.mtl.meta": {
+    "time": 1630142468481.7834
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_BigWin_All.prefab.meta": {
+    "time": 1630142468475.125
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_BigWin_Explode.anim.meta": {
+    "time": 1630142468471.673
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_BigWin_Loop.anim.meta": {
+    "time": 1630142468472.6082
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF.meta": {
+    "time": 1630142468448.4302
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Diamond_FBF.meta": {
+    "time": 1630142468440.1135
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF.meta": {
+    "time": 1630142468391.483
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/Ember.png.meta": {
+    "time": 1630142468480.2615
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/Gradient.png.meta": {
+    "time": 1630142468478.7246
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/Smoke.png.meta": {
+    "time": 1630142468476.7178
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_00.png.meta": {
+    "time": 1630142468469.4036
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_01.png.meta": {
+    "time": 1630142468466.7163
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_02.png.meta": {
+    "time": 1630142468465.2827
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_03.png.meta": {
+    "time": 1630142468463.4678
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_04.png.meta": {
+    "time": 1630142468461.8037
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_05.png.meta": {
+    "time": 1630142468460.5205
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_06.png.meta": {
+    "time": 1630142468459.0444
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_07.png.meta": {
+    "time": 1630142468456.5728
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_08.png.meta": {
+    "time": 1630142468454.739
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_09.png.meta": {
+    "time": 1630142468452.6052
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Chip_FBF/Chip_10.png.meta": {
+    "time": 1630142468449.9045
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Diamond_FBF/Diamond_1.png.meta": {
+    "time": 1630142468447.1313
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Diamond_FBF/Diamond_2.png.meta": {
+    "time": 1630142468445.7725
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Diamond_FBF/Diamond_3.png.meta": {
+    "time": 1630142468444.4082
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Diamond_FBF/Diamond_4.png.meta": {
+    "time": 1630142468443.1514
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Diamond_FBF/Diamond_5.png.meta": {
+    "time": 1630142468441.5981
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_00.png.meta": {
+    "time": 1630142468438.648
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_01.png.meta": {
+    "time": 1630142468437.0918
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_03.png.meta": {
+    "time": 1630142468434.9736
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_04.png.meta": {
+    "time": 1630142468432.1704
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_05.png.meta": {
+    "time": 1630142468428.785
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_06.png.meta": {
+    "time": 1630142468426.6482
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_07.png.meta": {
+    "time": 1630142468424.6272
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_08.png.meta": {
+    "time": 1630142468422.1628
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_09.png.meta": {
+    "time": 1630142468420.0906
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_10.png.meta": {
+    "time": 1630142468417.917
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_11.png.meta": {
+    "time": 1630142468415.3572
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_12.png.meta": {
+    "time": 1630142468413.306
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_13.png.meta": {
+    "time": 1630142468410.8345
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_14.png.meta": {
+    "time": 1630142468408.9392
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_15.png.meta": {
+    "time": 1630142468406.5945
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_16.png.meta": {
+    "time": 1630142468404.2515
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_17.png.meta": {
+    "time": 1630142468401.422
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_18.png.meta": {
+    "time": 1630142468398.7124
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_19.png.meta": {
+    "time": 1630142468395.9724
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/VFX_BigWin/VFX_Explode_FBF/Explode_20.png.meta": {
+    "time": 1630142468393.323
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/Additive.mtl.meta": {
+    "time": 1630142468481.7834
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/mat.meta": {
+    "time": 1630142507444.9214
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/Sprite/mat/Additive.mtl.meta": {
+    "time": 1630142468481.7834
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/mat.meta": {
+    "time": 1630142507444.9214
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/mat/Additive.mtl.meta": {
+    "time": 1630142468481.7834
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/mat": {
+    "time": 1630142509981.3665,
+    "uuid": "b27583f9-492a-42d4-8715-2edd5f3166ed",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Data/mat/Additive.mtl": {
+    "time": 1630142468482.4082,
+    "uuid": "e0b0d507-d3ef-48a1-956f-470b3d1e25d2",
+    "missing": false
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Script/Score.ts.meta": {
+    "time": 1630143990789.0173
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Script/ScoreGame.ts.meta": {
+    "time": 1630142747952.1697
+  },
+  "/Users/backup/Desktop/SnowyDay/assets/Script/Score.ts": {
+    "time": 1630144049908.293,
+    "uuid": "1e44d7d9-c562-4028-b996-4a4b141beb8d",
+    "missing": false
+  }
+}
