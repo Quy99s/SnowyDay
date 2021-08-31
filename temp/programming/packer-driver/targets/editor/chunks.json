@@ -1,33 +1,41 @@
 {
-  "quick-pack:/cce/internal/x/cc.js": {
-    "imports": {},
-    "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1630352060733,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/cc"
-  },
   "assets/Script/Score.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/Script/Score.js",
-    "mTimestamp": 1630352060993
+    "mTimestamp": 1630355860418
   },
-  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
-    "imports": {
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": "assets/Script/MainGameControler.js"
-    },
-    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1630353381249,
+  "quick-pack:/cce/internal/x/cc.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/x/cc.js",
+    "mTimestamp": 1630431611711,
     "isEntry": true,
-    "exposeAs": "cce:/internal/x/prerequisite-imports"
+    "exposeAs": "cce:/internal/x/cc"
   },
   "assets/Script/MainGameControler.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/Script/MainGameControler.js",
-    "mTimestamp": 1630353381333
+    "mTimestamp": 1630439006936
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": "assets/Script/MainGameControler.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": "assets/Script/Player.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1630441791062,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "assets/Script/Player.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Player.js",
+    "mTimestamp": 1630441791107
   }
 }

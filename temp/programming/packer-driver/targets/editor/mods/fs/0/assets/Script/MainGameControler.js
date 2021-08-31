@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, Component, _decorator, Node, UITransform, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, MainGameControler;
+  var _cclegacy, Component, _decorator, Node, UITransform, Vec3, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _temp, _crd, ccclass, property, MainGameControler;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -18,6 +18,7 @@ System.register(["cc"], function (_export, _context) {
       _decorator = _cc._decorator;
       Node = _cc.Node;
       UITransform = _cc.UITransform;
+      Vec3 = _cc.Vec3;
     }],
     execute: function () {
       _crd = true;
@@ -29,7 +30,7 @@ System.register(["cc"], function (_export, _context) {
         property
       } = _decorator);
 
-      _export("MainGameControler", MainGameControler = (_dec = ccclass('MainGameControler'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec(_class = (_class2 = (_temp = class MainGameControler extends Component {
+      _export("MainGameControler", MainGameControler = (_dec = ccclass('MainGameControler'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec(_class = (_class2 = (_temp = class MainGameControler extends Component {
         constructor(...args) {
           super(...args);
 
@@ -38,16 +39,45 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "player", _descriptor2, this);
 
           _initializerDefineProperty(this, "panel", _descriptor3, this);
+
+          _initializerDefineProperty(this, "touchPoint", _descriptor4, this);
         }
 
         onLoad() {
           this.panel.active = false;
+          this.bindClickEvent();
         }
 
         update(deltaTime) {
-          if (!this.isInGameArea(this.player.getPosition())) {
-            this.panel.active = true;
+          if (!this.isInGameArea(this.player.getPosition())) {// this.panel.active = true;
           }
+        }
+
+        bindClickEvent() {
+          if (this.gameArea) {
+            this.gameArea.on(Node.EventType.TOUCH_START, this.onTouchStart.bind(this));
+            this.gameArea.on(Node.EventType.TOUCH_END, this.onTouchCancel.bind(this));
+            this.gameArea.on(Node.EventType.TOUCH_MOVE, this.onTouchMove.bind(this));
+            this.gameArea.on(Node.EventType.TOUCH_CANCEL, this.onTouchCancel.bind(this));
+          }
+        }
+
+        onTouchStart(event) {// console.warn("onTouchStart", event);
+        }
+
+        onTouchCancel(event) {
+          const location = event.getLocation();
+          const touchPos = new Vec3(location.x - 480, location.y - 320);
+          this.touchPoint.setPosition(touchPos);
+          this.scheduleOnce(() => {
+            this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition());
+          }, 0); // console.warn("onTouchCancel", event);
+        }
+
+        onTouchMove(event) {
+          const location = event.getLocation();
+          const touchPos = new Vec3(location.x - 480, location.y - 320);
+          this.touchPoint.setPosition(touchPos); // console.warn("onTouchMove", event);
         }
 
         isInGameArea(pos) {
@@ -83,6 +113,11 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: null
       }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "panel", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "touchPoint", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,

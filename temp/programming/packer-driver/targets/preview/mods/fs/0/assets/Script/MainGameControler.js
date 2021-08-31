@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, Component, _decorator, Node, UITransform, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, MainGameControler;
+  var _cclegacy, Component, _decorator, Node, UITransform, Vec3, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _temp, _crd, ccclass, property, MainGameControler;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -24,6 +24,7 @@ System.register(["cc"], function (_export, _context) {
       _decorator = _cc._decorator;
       Node = _cc.Node;
       UITransform = _cc.UITransform;
+      Vec3 = _cc.Vec3;
     }],
     execute: function () {
       _crd = true;
@@ -33,7 +34,7 @@ System.register(["cc"], function (_export, _context) {
       ccclass = _decorator.ccclass;
       property = _decorator.property;
 
-      _export("MainGameControler", MainGameControler = (_dec = ccclass('MainGameControler'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
+      _export("MainGameControler", MainGameControler = (_dec = ccclass('MainGameControler'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
         _inheritsLoose(MainGameControler, _Component);
 
         function MainGameControler() {
@@ -51,6 +52,8 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(_assertThisInitialized(_this), "panel", _descriptor3, _assertThisInitialized(_this));
 
+          _initializerDefineProperty(_assertThisInitialized(_this), "touchPoint", _descriptor4, _assertThisInitialized(_this));
+
           return _this;
         }
 
@@ -58,12 +61,41 @@ System.register(["cc"], function (_export, _context) {
 
         _proto.onLoad = function onLoad() {
           this.panel.active = false;
+          this.bindClickEvent();
         };
 
         _proto.update = function update(deltaTime) {
-          if (!this.isInGameArea(this.player.getPosition())) {
-            this.panel.active = true;
+          if (!this.isInGameArea(this.player.getPosition())) {// this.panel.active = true;
           }
+        };
+
+        _proto.bindClickEvent = function bindClickEvent() {
+          if (this.gameArea) {
+            this.gameArea.on(Node.EventType.TOUCH_START, this.onTouchStart.bind(this));
+            this.gameArea.on(Node.EventType.TOUCH_END, this.onTouchCancel.bind(this));
+            this.gameArea.on(Node.EventType.TOUCH_MOVE, this.onTouchMove.bind(this));
+            this.gameArea.on(Node.EventType.TOUCH_CANCEL, this.onTouchCancel.bind(this));
+          }
+        };
+
+        _proto.onTouchStart = function onTouchStart(event) {// console.warn("onTouchStart", event);
+        };
+
+        _proto.onTouchCancel = function onTouchCancel(event) {
+          var _this2 = this;
+
+          var location = event.getLocation();
+          var touchPos = new Vec3(location.x - 480, location.y - 320);
+          this.touchPoint.setPosition(touchPos);
+          this.scheduleOnce(function () {
+            _this2.player.emit('FIRE_TO_POS', _this2.touchPoint.getPosition());
+          }, 0); // console.warn("onTouchCancel", event);
+        };
+
+        _proto.onTouchMove = function onTouchMove(event) {
+          var location = event.getLocation();
+          var touchPos = new Vec3(location.x - 480, location.y - 320);
+          this.touchPoint.setPosition(touchPos); // console.warn("onTouchMove", event);
         };
 
         _proto.isInGameArea = function isInGameArea(pos) {
@@ -100,6 +132,11 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: null
       }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "panel", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "touchPoint", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,
