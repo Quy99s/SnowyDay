@@ -6,7 +6,7 @@ System.register([], function (_export, _context) {
     execute: async function () {
       // Auto generated represents the prerequisite imports of project modules.
       await (async () => {
-        const requests = [() => _context.import("file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts"), () => _context.import("file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts"), () => _context.import("file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts")];
+        const requests = [() => _context.import("file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Bullet.ts"), () => _context.import("file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts"), () => _context.import("file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts"), () => _context.import("file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts")];
 
         for (const request of requests) {
           try {

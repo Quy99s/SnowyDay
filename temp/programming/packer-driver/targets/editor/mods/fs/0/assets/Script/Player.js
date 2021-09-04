@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Node, tween, v3, ParticleSystem2D, RigidBody2D, Vec2, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, Player;
+  var _cclegacy, _decorator, Component, Node, ParticleSystem2D, RigidBody2D, Vec2, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, Player;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,8 +17,6 @@ System.register(["cc"], function (_export, _context) {
       _decorator = _cc._decorator;
       Component = _cc.Component;
       Node = _cc.Node;
-      tween = _cc.tween;
-      v3 = _cc.v3;
       ParticleSystem2D = _cc.ParticleSystem2D;
       RigidBody2D = _cc.RigidBody2D;
       Vec2 = _cc.Vec2;
@@ -46,41 +44,33 @@ System.register(["cc"], function (_export, _context) {
 
         onLoad() {
           this.node.on("FIRE_TO_POS", this.fireToPosition, this);
-          this.rigidBody = this.node.getComponent(RigidBody2D);
         }
 
-        update(dt) {}
-
         fireToPosition(position, force) {
-          const nodePos = this.node.getPosition();
-          const currentPos = new Vec2(nodePos.x - position.x, nodePos.y - position.y);
-          const currentAngle = Math.atan2(currentPos.y, currentPos.x) * 180 / Math.PI;
-          const x = force * Math.cos(currentAngle * Math.PI / 180);
-          const y = force * Math.sin(currentAngle * Math.PI / 180);
           this.fireBullet(position);
-          this.rigidBody.linearVelocity = new Vec2(0, 0);
-          this.rigidBody.applyForceToCenter(new Vec2(x, y), true);
+          this.applyForceToTarget(this.node, position, force);
         }
 
         fireBullet(position, callBack = null) {
           this.bullet.setPosition(this.node.getPosition());
           this.bullet.getComponent(ParticleSystem2D).resetSystem();
           this.bullet.active = true;
-          this.tweenMove && this.tweenMove.stop();
-          this.tweenMove = tween(this.bullet).to(0.3, {
-            position: v3(position)
-          }, {
-            easing: 'sineInOut'
-          }).delay(0.1).call(() => {
-            callBack && callBack();
-            this.reset();
-            this.tweenMove = null;
-          }).start();
+          this.applyForceToTarget(this.bullet, position, -1000);
         }
 
         reset() {
           this.bullet.getComponent(ParticleSystem2D).resetSystem();
           this.bullet.getComponent(ParticleSystem2D).stopSystem();
+        }
+
+        applyForceToTarget(target, position, force) {
+          const nodePos = this.node.getPosition();
+          const currentPos = new Vec2(nodePos.x - position.x, nodePos.y - position.y);
+          const currentAngle = Math.atan2(currentPos.y, currentPos.x) * 180 / Math.PI;
+          const x = force * Math.cos(currentAngle * Math.PI / 180);
+          const y = force * Math.sin(currentAngle * Math.PI / 180);
+          target.getComponent(RigidBody2D).linearVelocity = new Vec2(0, 0);
+          target.getComponent(RigidBody2D).applyForceToCenter(new Vec2(x, y), true);
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "bullet", [_dec2], {

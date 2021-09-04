@@ -248,17 +248,17 @@
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script": {
-    "time": 1630435741860.8557,
+    "time": 1630787727426.9421,
     "uuid": "e08f6993-6d37-4c38-95ab-88771c9c18ff",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": {
-    "time": 1630783774552.9604,
+    "time": 1630787352601.3137,
     "uuid": "9faea20e-71d1-497e-9884-45531e2a6b1f",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": {
-    "time": 1630783707640.875,
+    "time": 1630787876090.9333,
     "uuid": "366427f0-cf4a-460b-9318-9b38231dd5ce",
     "missing": false
   },
@@ -273,7 +273,7 @@
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/MainGame.scene": {
-    "time": 1630783659336.8726,
+    "time": 1630790355230.9714,
     "uuid": "059d4610-e819-40e9-a441-7e188d51f664",
     "missing": false
   },
@@ -525,6 +525,14 @@
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/9.png": {
     "time": 1478861543000,
     "uuid": "74b2f7ed-dc6e-408c-a0f6-efa80f0393e1",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Script/Bullet.ts.meta": {
+    "time": 1630787727428.2014
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Script/Bullet.ts": {
+    "time": 1630790443562.181,
+    "uuid": "1bb56f64-e6fb-4751-aa2f-fd31fefdc57c",
     "missing": false
   }
 }

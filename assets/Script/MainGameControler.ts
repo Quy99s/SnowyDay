@@ -18,7 +18,7 @@ export class MainGameControler extends Component {
     touchPoint: Node;
     
     @property(CCString)
-    bulletForce: CCString='500';
+    bulletForce: String='500';
 
     onLoad() {
         this.panel.active = false;
