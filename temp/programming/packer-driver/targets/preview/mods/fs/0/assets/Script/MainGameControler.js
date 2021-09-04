@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, Component, _decorator, Node, UITransform, Vec3, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _temp, _crd, ccclass, property, MainGameControler;
+  var _cclegacy, Component, _decorator, Node, UITransform, Vec3, CCString, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _temp, _crd, ccclass, property, MainGameControler;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -25,6 +25,7 @@ System.register(["cc"], function (_export, _context) {
       Node = _cc.Node;
       UITransform = _cc.UITransform;
       Vec3 = _cc.Vec3;
+      CCString = _cc.CCString;
     }],
     execute: function () {
       _crd = true;
@@ -34,7 +35,7 @@ System.register(["cc"], function (_export, _context) {
       ccclass = _decorator.ccclass;
       property = _decorator.property;
 
-      _export("MainGameControler", MainGameControler = (_dec = ccclass('MainGameControler'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(String), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
+      _export("MainGameControler", MainGameControler = (_dec = ccclass('MainGameControler'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(CCString), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
         _inheritsLoose(MainGameControler, _Component);
 
         function MainGameControler() {

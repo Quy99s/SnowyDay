@@ -2167,3 +2167,29 @@ debug: Inspect file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts
 debug: Resolve cc from file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts as cce:/internal/x/cc.
 debug: Target(preview) ends with cost 103.12870398163795ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:00:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 18:02:19 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts from cce:/internal/x/prerequisite-imports as file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts.
+debug: Resolve file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts.
+debug: Resolve file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts from cce:/internal/x/prerequisite-imports as file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts.
+debug: Detected change: file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts. Last mtime: Sun Sep 05 2021 02:24:55 GMT+0700 (Indochina Time), Current mtime: Sun Sep 05 2021 02:26:34 GMT+0700 (Indochina Time)
+debug: Inspect file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts
+debug: Resolve cc from file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 66.11686900258064ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:00:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 18:02:19 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts from cce:/internal/x/prerequisite-imports as file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts.
+debug: Resolve file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts.
+debug: Resolve file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts from cce:/internal/x/prerequisite-imports as file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts.
+debug: Detected change: file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts. Last mtime: Sun Sep 05 2021 02:24:55 GMT+0700 (Indochina Time), Current mtime: Sun Sep 05 2021 02:26:34 GMT+0700 (Indochina Time)
+debug: Inspect file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts
+debug: Resolve cc from file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 114.63857099413872ms.
