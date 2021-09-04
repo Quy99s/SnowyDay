@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, Component, _decorator, Node, UITransform, Vec3, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _temp, _crd, ccclass, property, MainGameControler;
+  var _cclegacy, Component, _decorator, Node, UITransform, Vec3, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _temp, _crd, ccclass, property, MainGameControler;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -30,7 +30,7 @@ System.register(["cc"], function (_export, _context) {
         property
       } = _decorator);
 
-      _export("MainGameControler", MainGameControler = (_dec = ccclass('MainGameControler'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec(_class = (_class2 = (_temp = class MainGameControler extends Component {
+      _export("MainGameControler", MainGameControler = (_dec = ccclass('MainGameControler'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(String), _dec(_class = (_class2 = (_temp = class MainGameControler extends Component {
         constructor(...args) {
           super(...args);
 
@@ -41,6 +41,8 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "panel", _descriptor3, this);
 
           _initializerDefineProperty(this, "touchPoint", _descriptor4, this);
+
+          _initializerDefineProperty(this, "bulletForce", _descriptor5, this);
         }
 
         onLoad() {
@@ -70,7 +72,7 @@ System.register(["cc"], function (_export, _context) {
           const touchPos = new Vec3(location.x - 480, location.y - 320);
           this.touchPoint.setPosition(touchPos);
           this.scheduleOnce(() => {
-            this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition());
+            this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition(), this.bulletForce);
           }, 0); // console.warn("onTouchCancel", event);
         }
 
@@ -122,6 +124,13 @@ System.register(["cc"], function (_export, _context) {
         enumerable: true,
         writable: true,
         initializer: null
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "bulletForce", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return '500';
+        }
       })), _class2)) || _class));
 
       _cclegacy._RF.pop();

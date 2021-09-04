@@ -65,10 +65,17 @@ System.register(["cc"], function (_export, _context) {
           this.rigidBody = this.node.getComponent(RigidBody2D);
         };
 
+        _proto.update = function update(dt) {};
+
         _proto.fireToPosition = function fireToPosition(position) {
+          var nodePos = this.node.getPosition();
+          var currentPos = new Vec2(nodePos.x - position.x, nodePos.y - position.y);
+          var currentAngle = Math.atan2(currentPos.y, currentPos.x) * 180 / Math.PI;
+          var x = this.force * Math.cos(currentAngle * Math.PI / 180);
+          var y = this.force * Math.sin(currentAngle * Math.PI / 180);
           this.fireBullet(position);
           this.rigidBody.linearVelocity = new Vec2(0, 0);
-          this.rigidBody.applyForceToCenter(new Vec2(20, 600), true); //this.rigidBody.applyForceToCenter(new Vec2(0, 600), true);
+          this.rigidBody.applyForceToCenter(new Vec2(x, y), true);
         };
 
         _proto.fireBullet = function fireBullet(position, callBack) {

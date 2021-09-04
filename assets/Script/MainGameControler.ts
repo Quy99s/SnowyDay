@@ -1,4 +1,4 @@
-import { Component, _decorator, Node, UITransform, EventTouch, Vec3 } from "cc";
+import { Component, _decorator, Node, UITransform, EventTouch, Vec3, CCString } from "cc";
 
 const { ccclass, property } = _decorator;
 
@@ -16,6 +16,9 @@ export class MainGameControler extends Component {
 
     @property(Node)
     touchPoint: Node;
+    
+    @property(CCString)
+    bulletForce: CCString='500';
 
     onLoad() {
         this.panel.active = false;
@@ -43,7 +46,7 @@ export class MainGameControler extends Component {
         const touchPos = new Vec3(location.x - 480, location.y - 320);
         this.touchPoint.setPosition(touchPos);
         this.scheduleOnce(() => {
-            this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition());
+            this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition(),this.bulletForce);
         }, 0)
        // console.warn("onTouchCancel", event);
     }

@@ -14,12 +14,20 @@ export class Player extends Component {
         this.node.on("FIRE_TO_POS", this.fireToPosition, this);
         this.rigidBody = this.node.getComponent(RigidBody2D);
     }
+    update(dt) {
+
+    }
 
     fireToPosition(position) {
+        const nodePos = this.node.getPosition();
+        const currentPos = new Vec2(nodePos.x - position.x, nodePos.y - position.y);
+        const currentAngle = Math.atan2(currentPos.y, currentPos.x) * 180 / Math.PI;
+        const x = this.force * Math.cos((currentAngle * Math.PI) / 180);
+        const y = this.force * Math.sin((currentAngle * Math.PI) / 180);
+
         this.fireBullet(position);
         this.rigidBody.linearVelocity = new Vec2(0, 0);
-        this.rigidBody.applyForceToCenter(new Vec2(20, 600), true);
-        //this.rigidBody.applyForceToCenter(new Vec2(0, 600), true);
+        this.rigidBody.applyForceToCenter(new Vec2(x, y), true);
     }
 
     fireBullet(position, callBack = null) {
