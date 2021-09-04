@@ -51,12 +51,12 @@ System.register(["cc"], function (_export, _context) {
 
         update(dt) {}
 
-        fireToPosition(position) {
+        fireToPosition(position, force) {
           const nodePos = this.node.getPosition();
           const currentPos = new Vec2(nodePos.x - position.x, nodePos.y - position.y);
           const currentAngle = Math.atan2(currentPos.y, currentPos.x) * 180 / Math.PI;
-          const x = this.force * Math.cos(currentAngle * Math.PI / 180);
-          const y = this.force * Math.sin(currentAngle * Math.PI / 180);
+          const x = force * Math.cos(currentAngle * Math.PI / 180);
+          const y = force * Math.sin(currentAngle * Math.PI / 180);
           this.fireBullet(position);
           this.rigidBody.linearVelocity = new Vec2(0, 0);
           this.rigidBody.applyForceToCenter(new Vec2(x, y), true);

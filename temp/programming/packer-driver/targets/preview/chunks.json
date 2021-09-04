@@ -1,33 +1,19 @@
 {
-  "assets/Script/Score.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Score.js",
-    "mTimestamp": 1630355860643
-  },
   "quick-pack:/cce/internal/x/cc.js": {
     "imports": {},
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1630747529073,
+    "mTimestamp": 1630783803204,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
-  },
-  "assets/Script/Player.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Player.js",
-    "mTimestamp": 1630783571470
   },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
       "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": "assets/Script/Player.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": "assets/Script/MainGameControler.js"
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": "assets/Script/MainGameControler.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1630783657456,
+    "mTimestamp": 1630783803221,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
@@ -36,6 +22,20 @@
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/Script/MainGameControler.js",
-    "mTimestamp": 1630783657544
+    "mTimestamp": 1630783803321
+  },
+  "assets/Script/Score.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Score.js",
+    "mTimestamp": 1630783803381
+  },
+  "assets/Script/Player.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Player.js",
+    "mTimestamp": 1630783803463
   }
 }

@@ -41,6 +41,9 @@
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts.meta": {
     "time": 1630350812465.9822
   },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts.meta": {
+    "time": 1630435741862.393
+  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts.meta": {
     "time": 1630143990789.0173
   },
@@ -250,8 +253,13 @@
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": {
-    "time": 1630783594184.8796,
+    "time": 1630783774552.9604,
     "uuid": "9faea20e-71d1-497e-9884-45531e2a6b1f",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": {
+    "time": 1630783707640.875,
+    "uuid": "366427f0-cf4a-460b-9318-9b38231dd5ce",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": {
@@ -274,11 +282,6 @@
     "uuid": "2ddd0f77-54fd-43fb-aac4-024ad51a8bcb",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/1.png": {
-    "time": 1478861545000,
-    "uuid": "39439b26-f97e-4a89-bcbe-a4a12a9f7a05",
-    "missing": false
-  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/10.png": {
     "time": 1478861531000,
     "uuid": "3401fc35-6937-435f-a690-69a8ad26a4f9",
@@ -287,6 +290,11 @@
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/11.png": {
     "time": 1478861528000,
     "uuid": "9809b347-2e7e-40df-9f4d-c133c57e30b4",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/1.png": {
+    "time": 1478861545000,
+    "uuid": "39439b26-f97e-4a89-bcbe-a4a12a9f7a05",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/BG/BG4.jpg": {
@@ -299,14 +307,14 @@
     "uuid": "c8708bc6-690f-4519-ac68-683dba407c5c",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/13.png": {
-    "time": 1478861542000,
-    "uuid": "b3020f8c-d72a-45d4-9b5a-c0f06031427e",
-    "missing": false
-  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/14.png": {
     "time": 1478861548000,
     "uuid": "eac16f9a-7aae-4611-8ecf-5a6c95f09af7",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/13.png": {
+    "time": 1478861542000,
+    "uuid": "b3020f8c-d72a-45d4-9b5a-c0f06031427e",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/15.png": {
@@ -324,9 +332,9 @@
     "uuid": "a445109f-98ea-484f-a2f4-87447b5ebdb6",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/5.png": {
-    "time": 1478861533000,
-    "uuid": "b074f2a9-4289-4506-8cd7-5d643ef17b0a",
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/4.png": {
+    "time": 1478861537000,
+    "uuid": "55446b5c-3f8c-4eec-a3e0-7502ae87000d",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/3.png": {
@@ -334,19 +342,14 @@
     "uuid": "e4b145cb-96ad-472d-8f1f-dfc0c7ff1955",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/4.png": {
-    "time": 1478861537000,
-    "uuid": "55446b5c-3f8c-4eec-a3e0-7502ae87000d",
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/5.png": {
+    "time": 1478861533000,
+    "uuid": "b074f2a9-4289-4506-8cd7-5d643ef17b0a",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/6.png": {
     "time": 1478861530000,
     "uuid": "c394472e-1dbd-4013-8088-0b0a4d9c2103",
-    "missing": false
-  },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/7.png": {
-    "time": 1478861538000,
-    "uuid": "fa3d37f5-e76d-438e-84af-b227448fe339",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/8.png": {
@@ -359,6 +362,11 @@
     "uuid": "12a4e908-3825-4d59-8acf-672e1799787f",
     "missing": false
   },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/32X32/7.png": {
+    "time": 1478861538000,
+    "uuid": "fa3d37f5-e76d-438e-84af-b227448fe339",
+    "missing": false
+  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/1.png": {
     "time": 1478861535000,
     "uuid": "50a4878d-ab0e-4323-aca9-18792b8eb34f",
@@ -369,14 +377,14 @@
     "uuid": "b1c94ad4-a3ee-4d03-a7f9-81be41c339e8",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/11.png": {
-    "time": 1478861529000,
-    "uuid": "16e680ba-34ad-48e3-bfbd-60be0500f5aa",
-    "missing": false
-  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/12.png": {
     "time": 1478861547000,
     "uuid": "c9f5044b-9448-45ed-ac71-542541908bce",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/11.png": {
+    "time": 1478861529000,
+    "uuid": "16e680ba-34ad-48e3-bfbd-60be0500f5aa",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/13.png": {
@@ -384,9 +392,9 @@
     "uuid": "c82615d1-188d-41d5-8e03-8d19fb2155ca",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/14.png": {
-    "time": 1478861541000,
-    "uuid": "da6afda3-e04a-4140-8cd4-4a8761183564",
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/2.png": {
+    "time": 1478861552000,
+    "uuid": "602cbfa7-317a-44dc-9698-7e22426e159d",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/15.png": {
@@ -394,14 +402,14 @@
     "uuid": "519fc6e0-e669-460f-8ad2-42eabe941665",
     "missing": false
   },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/14.png": {
+    "time": 1478861541000,
+    "uuid": "da6afda3-e04a-4140-8cd4-4a8761183564",
+    "missing": false
+  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/16.png": {
     "time": 1478861539000,
     "uuid": "8481006d-2ecd-4a16-b39e-d5d297f232ba",
-    "missing": false
-  },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/2.png": {
-    "time": 1478861552000,
-    "uuid": "602cbfa7-317a-44dc-9698-7e22426e159d",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/3.png": {
@@ -429,14 +437,14 @@
     "uuid": "27e5a785-7eb7-481d-938e-a2d5ce02acc6",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/8.png": {
-    "time": 1478861540000,
-    "uuid": "2fa1c9a1-fc69-4ad2-a12c-eaa93933fe8f",
-    "missing": false
-  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/1.png": {
     "time": 1478861549000,
     "uuid": "3755cf1c-c1e3-4cb6-bbba-c010ceba781a",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/8.png": {
+    "time": 1478861540000,
+    "uuid": "2fa1c9a1-fc69-4ad2-a12c-eaa93933fe8f",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/512X512/9.png": {
@@ -444,19 +452,14 @@
     "uuid": "5bfbc804-0ddc-482c-b0ad-57da3d3bd3ff",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/11.png": {
-    "time": 1478861536000,
-    "uuid": "355a77b0-7e68-47a5-bd03-2cde264acf38",
-    "missing": false
-  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/10.png": {
     "time": 1478861549000,
     "uuid": "58c089ed-2df7-49a2-ae52-43f54e3de532",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/13.png": {
-    "time": 1478861543000,
-    "uuid": "fbcc278c-fa0f-4b82-a923-d7a43b23be8d",
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/11.png": {
+    "time": 1478861536000,
+    "uuid": "355a77b0-7e68-47a5-bd03-2cde264acf38",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/12.png": {
@@ -467,6 +470,11 @@
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/14.png": {
     "time": 1478861546000,
     "uuid": "b486a85f-86e5-4d31-88fe-4994d739567c",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/13.png": {
+    "time": 1478861543000,
+    "uuid": "fbcc278c-fa0f-4b82-a923-d7a43b23be8d",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/15.png": {
@@ -499,11 +507,6 @@
     "uuid": "19c03979-0d2a-47b9-b31d-e71872a1c302",
     "missing": false
   },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/6.png": {
-    "time": 1478861536000,
-    "uuid": "21fd953f-f1ca-47ec-a7bf-b7b47ae169b4",
-    "missing": false
-  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/7.png": {
     "time": 1478861530000,
     "uuid": "149f5fc4-ff90-4d13-8563-646ad4a3cb2c",
@@ -514,17 +517,14 @@
     "uuid": "2a7cef98-ff3e-400f-8f7e-1a4215be8f2a",
     "missing": false
   },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/6.png": {
+    "time": 1478861536000,
+    "uuid": "21fd953f-f1ca-47ec-a7bf-b7b47ae169b4",
+    "missing": false
+  },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data/Sprite/Snowflakes/64X64/9.png": {
     "time": 1478861543000,
     "uuid": "74b2f7ed-dc6e-408c-a0f6-efa80f0393e1",
-    "missing": false
-  },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts.meta": {
-    "time": 1630435741862.393
-  },
-  "/Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": {
-    "time": 1630783562328.7126,
-    "uuid": "366427f0-cf4a-460b-9318-9b38231dd5ce",
     "missing": false
   }
 }

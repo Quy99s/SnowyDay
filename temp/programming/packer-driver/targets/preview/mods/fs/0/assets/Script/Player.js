@@ -67,12 +67,12 @@ System.register(["cc"], function (_export, _context) {
 
         _proto.update = function update(dt) {};
 
-        _proto.fireToPosition = function fireToPosition(position) {
+        _proto.fireToPosition = function fireToPosition(position, force) {
           var nodePos = this.node.getPosition();
           var currentPos = new Vec2(nodePos.x - position.x, nodePos.y - position.y);
           var currentAngle = Math.atan2(currentPos.y, currentPos.x) * 180 / Math.PI;
-          var x = this.force * Math.cos(currentAngle * Math.PI / 180);
-          var y = this.force * Math.sin(currentAngle * Math.PI / 180);
+          var x = force * Math.cos(currentAngle * Math.PI / 180);
+          var y = force * Math.sin(currentAngle * Math.PI / 180);
           this.fireBullet(position);
           this.rigidBody.linearVelocity = new Vec2(0, 0);
           this.rigidBody.applyForceToCenter(new Vec2(x, y), true);
