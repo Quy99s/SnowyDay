@@ -1,0 +1,139 @@
+
+UI_BonusG_Gift.png
+size: 849,504
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blue/Box_Bot
+  rotate: true
+  xy: 2, 66
+  size: 88, 79
+  orig: 88, 79
+  offset: 0, 0
+  index: -1
+Blue/Box_Light
+  rotate: false
+  xy: 343, 247
+  size: 247, 255
+  orig: 247, 255
+  offset: 0, 0
+  index: -1
+Blue/Box_Top
+  rotate: false
+  xy: 2, 16
+  size: 92, 48
+  orig: 92, 48
+  offset: 0, 0
+  index: -1
+Blue/Ribbon_Side_Left
+  rotate: true
+  xy: 320, 58
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+Blue/Ribbon_Side_Right
+  rotate: true
+  xy: 317, 114
+  size: 40, 19
+  orig: 40, 19
+  offset: 0, 0
+  index: -1
+Blue/Ribbon_Top
+  rotate: true
+  xy: 245, 82
+  size: 72, 34
+  orig: 72, 34
+  offset: 0, 0
+  index: -1
+Box_Bot
+  rotate: true
+  xy: 83, 66
+  size: 88, 79
+  orig: 88, 79
+  offset: 0, 0
+  index: -1
+Box_Light
+  rotate: true
+  xy: 592, 255
+  size: 247, 255
+  orig: 247, 255
+  offset: 0, 0
+  index: -1
+Box_Top
+  rotate: false
+  xy: 96, 16
+  size: 92, 48
+  orig: 92, 48
+  offset: 0, 0
+  index: -1
+Light_Circle1
+  rotate: true
+  xy: 2, 156
+  size: 346, 339
+  orig: 346, 339
+  offset: 0, 0
+  index: -1
+Ribbon_Side_Left
+  rotate: true
+  xy: 320, 23
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+Ribbon_Side_Right
+  rotate: false
+  xy: 317, 93
+  size: 40, 19
+  orig: 40, 19
+  offset: 0, 0
+  index: -1
+Ribbon_Top
+  rotate: true
+  xy: 281, 82
+  size: 72, 34
+  orig: 72, 34
+  offset: 0, 0
+  index: -1
+Yellow/Box_Bot
+  rotate: true
+  xy: 164, 66
+  size: 88, 79
+  orig: 88, 79
+  offset: 0, 0
+  index: -1
+Yellow/Box_Light
+  rotate: true
+  xy: 592, 6
+  size: 247, 255
+  orig: 247, 255
+  offset: 0, 0
+  index: -1
+Yellow/Box_Top
+  rotate: false
+  xy: 190, 16
+  size: 92, 48
+  orig: 92, 48
+  offset: 0, 0
+  index: -1
+Yellow/Ribbon_Side_Left
+  rotate: false
+  xy: 320, 2
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+Yellow/Ribbon_Side_Right
+  rotate: true
+  xy: 338, 114
+  size: 40, 19
+  orig: 40, 19
+  offset: 0, 0
+  index: -1
+Yellow/Ribbon_Top
+  rotate: true
+  xy: 284, 8
+  size: 72, 34
+  orig: 72, 34
+  offset: 0, 0
+  index: -1

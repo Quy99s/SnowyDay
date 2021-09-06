@@ -68,7 +68,8 @@ System.register(["cc"], function (_export, _context) {
         };
 
         _proto.update = function update(deltaTime) {
-          if (!this.isInGameArea(this.player.getPosition())) {// this.panel.active = true;
+          if (!this.isInGameArea(this.player.getPosition())) {
+            this.panel.active = true;
           }
         };
 

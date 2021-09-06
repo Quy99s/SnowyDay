@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Node, ParticleSystem2D, RigidBody2D, Vec2, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, Player;
+  var _cclegacy, _decorator, Component, Node, ParticleSystem2D, RigidBody2D, Vec2, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, Player;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -31,11 +31,13 @@ System.register(["cc"], function (_export, _context) {
         property
       } = _decorator);
 
-      _export("Player", Player = (_dec = ccclass('Player'), _dec2 = property(Node), _dec(_class = (_class2 = (_temp = class Player extends Component {
+      _export("Player", Player = (_dec = ccclass('Player'), _dec2 = property(Node), _dec3 = property(Node), _dec(_class = (_class2 = (_temp = class Player extends Component {
         constructor(...args) {
           super(...args);
 
           _initializerDefineProperty(this, "bullet", _descriptor, this);
+
+          _initializerDefineProperty(this, "skill", _descriptor2, this);
 
           _defineProperty(this, "tweenMove", void 0);
 
@@ -44,6 +46,7 @@ System.register(["cc"], function (_export, _context) {
 
         onLoad() {
           this.node.on("FIRE_TO_POS", this.fireToPosition, this);
+          this.node.on('SENT_GIFT', this.runSkill, this);
         }
 
         fireToPosition(position, force) {
@@ -55,7 +58,7 @@ System.register(["cc"], function (_export, _context) {
           this.bullet.setPosition(this.node.getPosition());
           this.bullet.getComponent(ParticleSystem2D).resetSystem();
           this.bullet.active = true;
-          this.applyForceToTarget(this.bullet, position, -1000);
+          this.applyForceToTarget(this.bullet, position, -1);
         }
 
         reset() {
@@ -73,7 +76,16 @@ System.register(["cc"], function (_export, _context) {
           target.getComponent(RigidBody2D).applyForceToCenter(new Vec2(x, y), true);
         }
 
+        runSkill(event) {
+          this.skill.emit('ATTACK');
+        }
+
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "bullet", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "skill", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,

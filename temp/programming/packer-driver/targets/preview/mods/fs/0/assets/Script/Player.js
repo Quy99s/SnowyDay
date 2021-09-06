@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Node, ParticleSystem2D, RigidBody2D, Vec2, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, Player;
+  var _cclegacy, _decorator, Component, Node, ParticleSystem2D, RigidBody2D, Vec2, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, Player;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -35,7 +35,7 @@ System.register(["cc"], function (_export, _context) {
       ccclass = _decorator.ccclass;
       property = _decorator.property;
 
-      _export("Player", Player = (_dec = ccclass('Player'), _dec2 = property(Node), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
+      _export("Player", Player = (_dec = ccclass('Player'), _dec2 = property(Node), _dec3 = property(Node), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
         _inheritsLoose(Player, _Component);
 
         function Player() {
@@ -49,6 +49,8 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(_assertThisInitialized(_this), "bullet", _descriptor, _assertThisInitialized(_this));
 
+          _initializerDefineProperty(_assertThisInitialized(_this), "skill", _descriptor2, _assertThisInitialized(_this));
+
           _defineProperty(_assertThisInitialized(_this), "tweenMove", void 0);
 
           _defineProperty(_assertThisInitialized(_this), "rigidBody", void 0);
@@ -60,6 +62,7 @@ System.register(["cc"], function (_export, _context) {
 
         _proto.onLoad = function onLoad() {
           this.node.on("FIRE_TO_POS", this.fireToPosition, this);
+          this.node.on('SENT_GIFT', this.runSkill, this);
         };
 
         _proto.fireToPosition = function fireToPosition(position, force) {
@@ -75,7 +78,7 @@ System.register(["cc"], function (_export, _context) {
           this.bullet.setPosition(this.node.getPosition());
           this.bullet.getComponent(ParticleSystem2D).resetSystem();
           this.bullet.active = true;
-          this.applyForceToTarget(this.bullet, position, -1000);
+          this.applyForceToTarget(this.bullet, position, -1);
         };
 
         _proto.reset = function reset() {
@@ -93,8 +96,17 @@ System.register(["cc"], function (_export, _context) {
           target.getComponent(RigidBody2D).applyForceToCenter(new Vec2(x, y), true);
         };
 
+        _proto.runSkill = function runSkill(event) {
+          this.skill.emit('ATTACK');
+        };
+
         return Player;
       }(Component), _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "bullet", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "skill", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,

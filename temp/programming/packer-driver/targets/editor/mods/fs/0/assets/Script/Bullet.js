@@ -22,12 +22,13 @@ System.register(["cc"], function (_export, _context) {
       } = _decorator);
 
       _export("Bullet", Bullet = (_dec = ccclass('Bullet'), _dec(_class = class Bullet extends Component {
-        start() {
+        onLoad() {
           this.node.getComponent(CircleCollider2D).on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         }
 
-        onBeginContact(contact, selfCollider, otherCollider) {
-          console.warn(otherCollider);
+        onBeginContact(contact, selfCollider, otherCollider) {// if (selfCollider.node.getComponent('Enemy')) {
+          //     console.warn(selfCollider.node);
+          // }
         }
 
       }) || _class));

@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 7107.25281098485,
+    "mTimestamp": 7103.824030011892,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -368,7 +368,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 5978166.671103984,
+    "mTimestamp": 25615517.289813012,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -385,7 +385,7 @@
         }
       },
       {
-        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts",
+        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Enemy.ts",
         "loc": {
           "start": {
             "line": 5,
@@ -393,7 +393,33 @@
           },
           "end": {
             "line": 5,
-            "column": 190
+            "column": 178
+          }
+        }
+      },
+      {
+        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Gift.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 194
+          },
+          "end": {
+            "line": 5,
+            "column": 256
+          }
+        }
+      },
+      {
+        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 272
+          },
+          "end": {
+            "line": 5,
+            "column": 347
           }
         }
       },
@@ -402,11 +428,11 @@
         "loc": {
           "start": {
             "line": 5,
-            "column": 206
+            "column": 363
           },
           "end": {
             "line": 5,
-            "column": 270
+            "column": 427
           }
         }
       },
@@ -415,11 +441,37 @@
         "loc": {
           "start": {
             "line": 5,
-            "column": 286
+            "column": 443
           },
           "end": {
             "line": 5,
-            "column": 349
+            "column": 506
+          }
+        }
+      },
+      {
+        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Skill.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 522
+          },
+          "end": {
+            "line": 5,
+            "column": 585
+          }
+        }
+      },
+      {
+        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Wall.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 601
+          },
+          "end": {
+            "line": 5,
+            "column": 663
           }
         }
       }
@@ -434,6 +486,14 @@
       },
       {
         "isExternal": false,
+        "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Enemy.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Gift.ts"
+      },
+      {
+        "isExternal": false,
         "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts"
       },
       {
@@ -443,12 +503,20 @@
       {
         "isExternal": false,
         "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Skill.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Wall.ts"
       }
     ]
   },
-  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": {
-    "mTimestamp": 1630787876090.9333,
-    "chunkId": "assets/Script/Player.js",
+  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Wall.ts": {
+    "mTimestamp": 1630827356072.1484,
+    "chunkId": "assets/Script/Wall.js",
     "imports": [
       {
         "value": "cc"
@@ -458,46 +526,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 111
+            "column": 44
           },
           "end": {
             "line": 2,
-            "column": 115
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": {
-    "mTimestamp": 1630787352601.3137,
-    "chunkId": "assets/Script/MainGameControler.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 85
-          },
-          "end": {
-            "line": 1,
-            "column": 89
+            "column": 48
           }
         }
       }
@@ -551,8 +584,43 @@
       }
     ]
   },
+  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Enemy.ts": {
+    "mTimestamp": 1630859903078.7214,
+    "chunkId": "assets/Script/Enemy.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 148
+          },
+          "end": {
+            "line": 2,
+            "column": 152
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
   "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Bullet.ts": {
-    "mTimestamp": 1630790443562.181,
+    "mTimestamp": 1630831305464.3254,
     "chunkId": "assets/Script/Bullet.js",
     "imports": [
       {
@@ -568,6 +636,146 @@
           "end": {
             "line": 2,
             "column": 127
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": {
+    "mTimestamp": 1630860268273.447,
+    "chunkId": "assets/Script/MainGameControler.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 85
+          },
+          "end": {
+            "line": 1,
+            "column": 89
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": {
+    "mTimestamp": 1630859544324.2134,
+    "chunkId": "assets/Script/Player.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 111
+          },
+          "end": {
+            "line": 2,
+            "column": 115
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Gift.ts": {
+    "mTimestamp": 1630859430320.7825,
+    "chunkId": "assets/Script/Gift.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 103
+          },
+          "end": {
+            "line": 2,
+            "column": 107
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Skill.ts": {
+    "mTimestamp": 1630860155751.1167,
+    "chunkId": "assets/Script/Skill.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 61
+          },
+          "end": {
+            "line": 2,
+            "column": 65
           }
         }
       }

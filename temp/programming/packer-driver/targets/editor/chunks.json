@@ -1,49 +1,81 @@
 {
-  "assets/Script/Score.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Score.js",
-    "mTimestamp": 1630783803098
-  },
   "quick-pack:/cce/internal/x/cc.js": {
     "imports": {},
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1630784480281,
+    "mTimestamp": 1630834668772,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
-  },
-  "assets/Script/MainGameControler.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/MainGameControler.js",
-    "mTimestamp": 1630787705630
-  },
-  "assets/Script/Player.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Player.js",
-    "mTimestamp": 1630788418719
-  },
-  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
-    "imports": {
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": "assets/Script/MainGameControler.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": "assets/Script/Player.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Bullet.ts": "assets/Script/Bullet.js"
-    },
-    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1630790445428,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
   "assets/Script/Bullet.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/Script/Bullet.js",
-    "mTimestamp": 1630790445449
+    "mTimestamp": 1630834668812
+  },
+  "assets/Script/Wall.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Wall.js",
+    "mTimestamp": 1630834669055
+  },
+  "assets/Script/Score.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Score.js",
+    "mTimestamp": 1630834669079
+  },
+  "assets/Script/Gift.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Gift.js",
+    "mTimestamp": 1630859454760
+  },
+  "assets/Script/Player.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Player.js",
+    "mTimestamp": 1630859559426
+  },
+  "assets/Script/Enemy.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Enemy.js",
+    "mTimestamp": 1630859905512
+  },
+  "assets/Script/Skill.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Skill.js",
+    "mTimestamp": 1630860157241
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Bullet.ts": "assets/Script/Bullet.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Enemy.ts": "assets/Script/Enemy.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Gift.ts": "assets/Script/Gift.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": "assets/Script/Player.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Skill.ts": "assets/Script/Skill.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Wall.ts": "assets/Script/Wall.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": "assets/Script/MainGameControler.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1630860269792,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "assets/Script/MainGameControler.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/MainGameControler.js",
+    "mTimestamp": 1630860269865
   }
 }

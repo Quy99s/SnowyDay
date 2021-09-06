@@ -27,7 +27,7 @@ export class MainGameControler extends Component {
 
     update(deltaTime: number) {
         if (!this.isInGameArea(this.player.getPosition())) {
-            // this.panel.active = true;
+            this.panel.active = true;
         }
     }
     bindClickEvent() {

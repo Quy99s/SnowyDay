@@ -2,6 +2,17 @@
   "uuid": {
     "/Users/backup/SnowyDay/SnowyDay/assets/Data/mat/Additive.mtl": [
       "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "/Users/backup/SnowyDay/SnowyDay/assets/Prefab/UI_BonusG_Gift/UI_BonusG_Gift.json": [
+      "a784fdec-fb5c-4dd5-aa83-cf168ff85e5f"
+    ],
+    "/Users/backup/SnowyDay/SnowyDay/assets/Data/spine/UI_BonusG_Gift/UI_BonusG_Gift.json": [
+      "a784fdec-fb5c-4dd5-aa83-cf168ff85e5f"
+    ]
+  },
+  "path": {
+    "/Users/backup/SnowyDay/SnowyDay/assets/Data/spine/UI_BonusG_Gift/UI_BonusG_Gift.json": [
+      "/Users/backup/SnowyDay/SnowyDay/assets/Data/spine/UI_BonusG_Gift/UI_BonusG_Gift.atlas"
     ]
   }
 }

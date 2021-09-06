@@ -7,12 +7,14 @@ export class Player extends Component {
 
     @property(Node)
     bullet: Node;
-
+    @property(Node)
+    skill: Node;
     tweenMove: any;
     rigidBody: RigidBody2D;
 
     onLoad() {
         this.node.on("FIRE_TO_POS", this.fireToPosition, this);
+        this.node.on('SENT_GIFT', this.runSkill, this);
     }
 
     fireToPosition(position, force) {
@@ -24,7 +26,7 @@ export class Player extends Component {
         this.bullet.setPosition(this.node.getPosition());
         this.bullet.getComponent(ParticleSystem2D).resetSystem();
         this.bullet.active = true;
-        this.applyForceToTarget(this.bullet, position, -1000);
+        this.applyForceToTarget(this.bullet, position, -1);
 
     }
     reset() {
@@ -43,4 +45,7 @@ export class Player extends Component {
         target.getComponent(RigidBody2D).applyForceToCenter(new Vec2(x, y), true);
     }
 
+    runSkill(event) {
+        this.skill.emit('ATTACK');
+    }
 }

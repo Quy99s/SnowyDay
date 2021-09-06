@@ -32,12 +32,13 @@ System.register(["cc"], function (_export, _context) {
 
         var _proto = Bullet.prototype;
 
-        _proto.start = function start() {
+        _proto.onLoad = function onLoad() {
           this.node.getComponent(CircleCollider2D).on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         };
 
-        _proto.onBeginContact = function onBeginContact(contact, selfCollider, otherCollider) {
-          console.warn(otherCollider);
+        _proto.onBeginContact = function onBeginContact(contact, selfCollider, otherCollider) {// if (selfCollider.node.getComponent('Enemy')) {
+          //     console.warn(selfCollider.node);
+          // }
         };
 
         return Bullet;
