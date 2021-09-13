@@ -49,12 +49,12 @@ System.register(["cc"], function (_export, _context) {
         onLoad() {
           this.panel.active = false;
           this.bindClickEvent();
+          this.node.on("FIRE", this.fire, this);
         }
 
-        update(deltaTime) {
-          if (!this.isInGameArea(this.player.getPosition())) {
-            this.panel.active = true;
-          }
+        update(deltaTime) {// if (!this.isInGameArea(this.player.getPosition())) {
+          //     this.panel.active = true;
+          // }
         }
 
         bindClickEvent() {
@@ -72,10 +72,11 @@ System.register(["cc"], function (_export, _context) {
         onTouchCancel(event) {
           const location = event.getLocation();
           const touchPos = new Vec3(location.x - 480, location.y - 320);
-          this.touchPoint.setPosition(touchPos);
-          this.scheduleOnce(() => {
-            this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition(), this.bulletForce);
-          }, 0); // console.warn("onTouchCancel", event);
+          this.touchPoint.setPosition(touchPos); // console.warn("onTouchCancel", event);
+        }
+
+        fire(kine) {
+          this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition(), this.bulletForce, kine);
         }
 
         onTouchMove(event) {

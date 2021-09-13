@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Music-bar.svg",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 100
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 200,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      124,
+      0,
+      0,
+      0
+    ],
+    "texture": "b433d901-a2a5-4bbf-8da9-8d3110f8f66e@6c48a",
+    "packable": true
+  }
+}

@@ -8,6 +8,7 @@ export class Enemy extends Component {
     backGround: Node;
     @property(Node)
     particle: Node;
+    
 
 
     onLoad() {

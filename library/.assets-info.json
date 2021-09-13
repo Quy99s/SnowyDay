@@ -219,7 +219,7 @@
     "time": 1630830514268.8013
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Data": {
-    "time": 1630856496690.4783,
+    "time": 1631458527109.4092,
     "uuid": "742eae73-a6ad-47cf-ab0b-773034daae0a",
     "missing": false
   },
@@ -274,7 +274,7 @@
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script": {
-    "time": 1630857211848.1287,
+    "time": 1631459028095.2693,
     "uuid": "e08f6993-6d37-4c38-95ab-88771c9c18ff",
     "missing": false
   },
@@ -284,7 +284,7 @@
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/Enemy.ts": {
-    "time": 1630859903078.7214,
+    "time": 1631477211440.439,
     "uuid": "65a4931b-472d-447d-8745-a5bc4f19259d",
     "missing": false
   },
@@ -294,12 +294,12 @@
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": {
-    "time": 1630860268273.447,
+    "time": 1631466483665.9268,
     "uuid": "9faea20e-71d1-497e-9884-45531e2a6b1f",
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": {
-    "time": 1630859544324.2134,
+    "time": 1631477473678.3293,
     "uuid": "366427f0-cf4a-460b-9318-9b38231dd5ce",
     "missing": false
   },
@@ -319,7 +319,7 @@
     "missing": false
   },
   "/Users/backup/SnowyDay/SnowyDay/assets/MainGame.scene": {
-    "time": 1630860299544.9116,
+    "time": 1631478530619.6592,
     "uuid": "059d4610-e819-40e9-a441-7e188d51f664",
     "missing": false
   },
@@ -683,6 +683,382 @@
   "/Users/backup/SnowyDay/SnowyDay/assets/Script/Skill.ts": {
     "time": 1630860155751.1167,
     "uuid": "2cd976bf-3e8b-4cc2-b7e2-621f053449c6",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Music-bar.svg.png.meta": {
+    "time": 1631456901319.3157
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/Music-bar.svg.png": {
+    "time": 1631456428524.8591,
+    "uuid": "b433d901-a2a5-4bbf-8da9-8d3110f8f66e",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Script/musicBar.ts.meta": {
+    "time": 1631456991239.1416
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Script/MusicBar.ts.meta": {
+    "time": 1631456991239.1416
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Script/MusicBar.ts": {
+    "time": 1631473963171.403,
+    "uuid": "29b11cdb-1db7-4d67-9284-f9509a3aa79a",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound.meta": {
+    "time": 1631458527110.173
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound": {
+    "time": 1631478278576.774,
+    "uuid": "20c4c424-3470-46cd-ad16-6ae7916465cb",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/BGM_01.wav.meta": {
+    "time": 1631458561723.7285
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/BGM_02.wav.meta": {
+    "time": 1631458561723.4253
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/BGM_03.wav.meta": {
+    "time": 1631458561722.3667
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/BGM_04.wav.meta": {
+    "time": 1631458561722.738
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/BGM_01.wav": {
+    "time": 1547106551000,
+    "uuid": "428fa7fd-0cde-4eaa-9874-b750e7ed6ae5",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Script/soundPlayer.ts.meta": {
+    "time": 1631459028096.623
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Script/soundPlayer.ts": {
+    "time": 1631471237539.8962,
+    "uuid": "a13e78cd-a9cf-4cf9-8e6b-003115242183",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX.meta": {
+    "time": 1631470700968.0344
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-01.wav.meta": {
+    "time": 1631470700999.2507
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-02.wav.meta": {
+    "time": 1631470701002.4866
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-03.wav.meta": {
+    "time": 1631470700998.6526
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-04.wav.meta": {
+    "time": 1631470701012.7756
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-05.wav.meta": {
+    "time": 1631470701010.2996
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-06.wav.meta": {
+    "time": 1631470701039.3533
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-07.wav.meta": {
+    "time": 1631470701017.119
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-08.wav.meta": {
+    "time": 1631470701023.2783
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-09.wav.meta": {
+    "time": 1631470701063.3992
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-10.wav.meta": {
+    "time": 1631470701063.78
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-11.wav.meta": {
+    "time": 1631470701075.31
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-12.wav.meta": {
+    "time": 1631470701089.884
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-13.wav.meta": {
+    "time": 1631470701101.4526
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-14.wav.meta": {
+    "time": 1631470701106.9375
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-15.wav.meta": {
+    "time": 1631470701104.97
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-16.wav.meta": {
+    "time": 1631470701118.7065
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-17.wav.meta": {
+    "time": 1631470701125.8372
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-18.wav.meta": {
+    "time": 1631470701143.407
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-19.wav.meta": {
+    "time": 1631470701138.674
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-20.wav.meta": {
+    "time": 1631470701130.7522
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-21.wav.meta": {
+    "time": 1631470701139.7927
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-22.wav.meta": {
+    "time": 1631470701146.3477
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-23.wav.meta": {
+    "time": 1631470701163.7546
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-24.wav.meta": {
+    "time": 1631470701167.5542
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-25.wav.meta": {
+    "time": 1631470701170.988
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-26.wav.meta": {
+    "time": 1631470701161.442
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-27.wav.meta": {
+    "time": 1631470701162.287
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-28.wav.meta": {
+    "time": 1631470701183.4268
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-29.wav.meta": {
+    "time": 1631470701182.568
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-30.wav.meta": {
+    "time": 1631470701183.0215
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-31.wav.meta": {
+    "time": 1631470701187.1257
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-32.wav.meta": {
+    "time": 1631470701185.8967
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-33.wav.meta": {
+    "time": 1631470701211.4194
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-34.wav.meta": {
+    "time": 1631470701200.8696
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-35.wav.meta": {
+    "time": 1631470701203.092
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-36.wav.meta": {
+    "time": 1631470701207.6714
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-37.wav.meta": {
+    "time": 1631470701206.285
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-38.wav.meta": {
+    "time": 1631470701219.7903
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-39.wav.meta": {
+    "time": 1631470701221.9385
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-40.wav.meta": {
+    "time": 1631470701222.2554
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-41.wav.meta": {
+    "time": 1631470701223.9482
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-42.wav.meta": {
+    "time": 1631470701230.0432
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-43.wav.meta": {
+    "time": 1631470701261.9946
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-44.wav.meta": {
+    "time": 1631470701236.081
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-45.wav.meta": {
+    "time": 1631470701253.2078
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-46.wav.meta": {
+    "time": 1631470701243.034
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-47.wav.meta": {
+    "time": 1631470701249.5967
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-48.wav.meta": {
+    "time": 1631470701268.7905
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-49.wav.meta": {
+    "time": 1631470701273.53
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/DM-CGS-50.wav.meta": {
+    "time": 1631470701275.5435
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX": {
+    "time": 1631478465762.8538,
+    "uuid": "70db3c22-d601-4063-9b2a-1009c7c663e7",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-07.wav.meta": {
+    "time": 1631470701017.119
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-17.wav.meta": {
+    "time": 1631470701125.8372
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-33.wav.meta": {
+    "time": 1631478085374.3862
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-45.wav.meta": {
+    "time": 1631478085378.8267
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-01.wav.meta": {
+    "time": 1631478085161.7534
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-02.wav.meta": {
+    "time": 1631478085165.1755
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-03.wav.meta": {
+    "time": 1631478085162.0667
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-04.wav.meta": {
+    "time": 1631478085172.1245
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-05.wav.meta": {
+    "time": 1631478085171.2349
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-06.wav.meta": {
+    "time": 1631478085180.339
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-08.wav.meta": {
+    "time": 1631478085175.1794
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-09.wav.meta": {
+    "time": 1631478085186.1516
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-10.wav.meta": {
+    "time": 1631478085193.1096
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-11.wav.meta": {
+    "time": 1631478085196.684
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-12.wav.meta": {
+    "time": 1631478085197.0457
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-13.wav.meta": {
+    "time": 1631478085201.6807
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-14.wav.meta": {
+    "time": 1631478085200.1047
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-15.wav.meta": {
+    "time": 1631478085210.5776
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-16.wav.meta": {
+    "time": 1631478085209.3801
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-18.wav.meta": {
+    "time": 1631478085221.8745
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-19.wav.meta": {
+    "time": 1631478085217.1257
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-20.wav.meta": {
+    "time": 1631478085215.1597
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-21.wav.meta": {
+    "time": 1631478085226.379
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-22.wav.meta": {
+    "time": 1631478085229.0452
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-23.wav.meta": {
+    "time": 1631478085246.6238
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-24.wav.meta": {
+    "time": 1631478085246.3264
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-25.wav.meta": {
+    "time": 1631478085249.9822
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-26.wav.meta": {
+    "time": 1631478085246.007
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-27.wav.meta": {
+    "time": 1631478085248.6558
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-28.wav.meta": {
+    "time": 1631478085260.196
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-29.wav.meta": {
+    "time": 1631478085262.0684
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-30.wav.meta": {
+    "time": 1631478085260.5144
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-31.wav.meta": {
+    "time": 1631478085260.837
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-32.wav.meta": {
+    "time": 1631478085259.1497
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-34.wav.meta": {
+    "time": 1631478085273.551
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-35.wav.meta": {
+    "time": 1631478085275.1924
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-36.wav.meta": {
+    "time": 1631478085277.696
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-37.wav.meta": {
+    "time": 1631478085278.8337
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-38.wav.meta": {
+    "time": 1631478085279.744
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-39.wav.meta": {
+    "time": 1631478085291.3672
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-40.wav.meta": {
+    "time": 1631478085289.3298
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-41.wav.meta": {
+    "time": 1631478085293.0273
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-42.wav.meta": {
+    "time": 1631478085299.3115
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-43.wav.meta": {
+    "time": 1631478085308.4194
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-44.wav.meta": {
+    "time": 1631478085302.0847
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-46.wav.meta": {
+    "time": 1631478085308.0244
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-47.wav.meta": {
+    "time": 1631478085313.0432
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-48.wav.meta": {
+    "time": 1631478085364.9802
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-49.wav.meta": {
+    "time": 1631478085373.538
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/DM-CGS-50.wav.meta": {
+    "time": 1631478085376.8787
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/low.mp3.meta": {
+    "time": 1631478463141.3423
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/low.mp3": {
+    "time": 1631478463133.4834,
+    "uuid": "916a6299-ada2-4e9f-aac2-c789cf792751",
+    "missing": false
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/high.mp3.meta": {
+    "time": 1631478465768.163
+  },
+  "/Users/backup/SnowyDay/SnowyDay/assets/Data/sound/VFX/high.mp3": {
+    "time": 1631478465762.0474,
+    "uuid": "d75e497d-1d7d-43cc-a89d-99164abaa07f",
     "missing": false
   }
 }

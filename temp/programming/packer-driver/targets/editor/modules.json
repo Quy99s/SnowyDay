@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 7103.824030011892,
+    "mTimestamp": 14907.691004991531,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -368,7 +368,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 25615517.289813012,
+    "mTimestamp": 21738420.771631002,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -424,7 +424,7 @@
         }
       },
       {
-        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts",
+        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MusicBar.ts",
         "loc": {
           "start": {
             "line": 5,
@@ -432,7 +432,20 @@
           },
           "end": {
             "line": 5,
-            "column": 427
+            "column": 429
+          }
+        }
+      },
+      {
+        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 445
+          },
+          "end": {
+            "line": 5,
+            "column": 509
           }
         }
       },
@@ -441,11 +454,11 @@
         "loc": {
           "start": {
             "line": 5,
-            "column": 443
+            "column": 525
           },
           "end": {
             "line": 5,
-            "column": 506
+            "column": 588
           }
         }
       },
@@ -454,11 +467,11 @@
         "loc": {
           "start": {
             "line": 5,
-            "column": 522
+            "column": 604
           },
           "end": {
             "line": 5,
-            "column": 585
+            "column": 667
           }
         }
       },
@@ -467,11 +480,24 @@
         "loc": {
           "start": {
             "line": 5,
-            "column": 601
+            "column": 683
           },
           "end": {
             "line": 5,
-            "column": 663
+            "column": 745
+          }
+        }
+      },
+      {
+        "value": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/soundPlayer.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 761
+          },
+          "end": {
+            "line": 5,
+            "column": 830
           }
         }
       }
@@ -498,6 +524,10 @@
       },
       {
         "isExternal": false,
+        "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MusicBar.ts"
+      },
+      {
+        "isExternal": false,
         "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts"
       },
       {
@@ -511,6 +541,10 @@
       {
         "isExternal": false,
         "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Wall.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/soundPlayer.ts"
       }
     ]
   },
@@ -585,7 +619,7 @@
     ]
   },
   "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Enemy.ts": {
-    "mTimestamp": 1630859903078.7214,
+    "mTimestamp": 1631477211440.439,
     "chunkId": "assets/Script/Enemy.js",
     "imports": [
       {
@@ -655,7 +689,7 @@
     ]
   },
   "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": {
-    "mTimestamp": 1630860268273.447,
+    "mTimestamp": 1631466483665.9268,
     "chunkId": "assets/Script/MainGameControler.js",
     "imports": [
       {
@@ -690,7 +724,7 @@
     ]
   },
   "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": {
-    "mTimestamp": 1630859544324.2134,
+    "mTimestamp": 1631477473678.3293,
     "chunkId": "assets/Script/Player.js",
     "imports": [
       {
@@ -701,11 +735,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 111
+            "column": 159
           },
           "end": {
             "line": 2,
-            "column": 115
+            "column": 163
           }
         }
       }
@@ -776,6 +810,111 @@
           "end": {
             "line": 2,
             "column": 65
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/musicBar.ts": {
+    "mTimestamp": 1631456991237.5234,
+    "chunkId": "assets/Script/musicBar.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MusicBar.ts": {
+    "mTimestamp": 1631473963171.403,
+    "chunkId": "assets/Script/MusicBar.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 104
+          },
+          "end": {
+            "line": 2,
+            "column": 108
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/soundPlayer.ts": {
+    "mTimestamp": 1631471237539.8962,
+    "chunkId": "assets/Script/soundPlayer.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 74
+          },
+          "end": {
+            "line": 2,
+            "column": 78
           }
         }
       }

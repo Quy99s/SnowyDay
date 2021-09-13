@@ -1,11 +1,4 @@
 {
-  "quick-pack:/cce/internal/x/cc.js": {
-    "imports": {},
-    "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1630834669137,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/cc"
-  },
   "assets/Script/Bullet.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
@@ -34,20 +27,6 @@
     "physicalLocation": "fs/0/assets/Script/Gift.js",
     "mTimestamp": 1630859454879
   },
-  "assets/Script/Player.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Player.js",
-    "mTimestamp": 1630859559575
-  },
-  "assets/Script/Enemy.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/Enemy.js",
-    "mTimestamp": 1630859905596
-  },
   "assets/Script/Skill.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
@@ -55,27 +34,71 @@
     "physicalLocation": "fs/0/assets/Script/Skill.js",
     "mTimestamp": 1630860157320
   },
-  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
-    "imports": {
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Bullet.ts": "assets/Script/Bullet.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Enemy.ts": "assets/Script/Enemy.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Gift.ts": "assets/Script/Gift.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": "assets/Script/Player.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Skill.ts": "assets/Script/Skill.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Wall.ts": "assets/Script/Wall.js",
-      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": "assets/Script/MainGameControler.js"
-    },
-    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1630860269885,
+  "quick-pack:/cce/internal/x/cc.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/x/cc.js",
+    "mTimestamp": 1631455756897,
     "isEntry": true,
-    "exposeAs": "cce:/internal/x/prerequisite-imports"
+    "exposeAs": "cce:/internal/x/cc"
+  },
+  "assets/Script/musicBar.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/musicBar.js",
+    "mTimestamp": 1631456991354
   },
   "assets/Script/MainGameControler.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/Script/MainGameControler.js",
-    "mTimestamp": 1630860269981
+    "mTimestamp": 1631466653279
+  },
+  "assets/Script/soundPlayer.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/soundPlayer.js",
+    "mTimestamp": 1631471239433
+  },
+  "assets/Script/MusicBar.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/MusicBar.js",
+    "mTimestamp": 1631473964616
+  },
+  "assets/Script/Enemy.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Enemy.js",
+    "mTimestamp": 1631477344401
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Bullet.ts": "assets/Script/Bullet.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Enemy.ts": "assets/Script/Enemy.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Gift.ts": "assets/Script/Gift.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MainGameControler.ts": "assets/Script/MainGameControler.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/MusicBar.ts": "assets/Script/MusicBar.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Score.ts": "assets/Script/Score.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Skill.ts": "assets/Script/Skill.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Wall.ts": "assets/Script/Wall.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/soundPlayer.ts": "assets/Script/soundPlayer.js",
+      "file:///Users/backup/SnowyDay/SnowyDay/assets/Script/Player.ts": "assets/Script/Player.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1631477474129,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "assets/Script/Player.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Script/Player.js",
+    "mTimestamp": 1631477474217
   }
 }

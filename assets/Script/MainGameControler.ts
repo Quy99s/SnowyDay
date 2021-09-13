@@ -16,19 +16,20 @@ export class MainGameControler extends Component {
 
     @property(Node)
     touchPoint: Node;
-    
+
     @property(CCString)
-    bulletForce: String='500';
+    bulletForce: String = '500';
 
     onLoad() {
         this.panel.active = false;
         this.bindClickEvent();
+        this.node.on("FIRE", this.fire, this);
     }
 
     update(deltaTime: number) {
-        if (!this.isInGameArea(this.player.getPosition())) {
-            this.panel.active = true;
-        }
+        // if (!this.isInGameArea(this.player.getPosition())) {
+        //     this.panel.active = true;
+        // }
     }
     bindClickEvent() {
         if (this.gameArea) {
@@ -39,23 +40,23 @@ export class MainGameControler extends Component {
         }
     }
     onTouchStart(event: EventTouch) {
-       // console.warn("onTouchStart", event);
+        // console.warn("onTouchStart", event);
     }
     onTouchCancel(event: EventTouch) {
         const location = event.getLocation();
         const touchPos = new Vec3(location.x - 480, location.y - 320);
         this.touchPoint.setPosition(touchPos);
-        this.scheduleOnce(() => {
-            this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition(),this.bulletForce);
-        }, 0)
-       // console.warn("onTouchCancel", event);
+        // console.warn("onTouchCancel", event);
+    }
+    fire(kine) {
+        this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition(), this.bulletForce, kine);
     }
     onTouchMove(event: EventTouch) {
         const location = event.getLocation();
         const touchPos = new Vec3(location.x - 480, location.y - 320);
         this.touchPoint.setPosition(touchPos);
 
-       // console.warn("onTouchMove", event);
+        // console.warn("onTouchMove", event);
     }
 
 

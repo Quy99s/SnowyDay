@@ -65,12 +65,12 @@ System.register(["cc"], function (_export, _context) {
         _proto.onLoad = function onLoad() {
           this.panel.active = false;
           this.bindClickEvent();
+          this.node.on("FIRE", this.fire, this);
         };
 
-        _proto.update = function update(deltaTime) {
-          if (!this.isInGameArea(this.player.getPosition())) {
-            this.panel.active = true;
-          }
+        _proto.update = function update(deltaTime) {// if (!this.isInGameArea(this.player.getPosition())) {
+          //     this.panel.active = true;
+          // }
         };
 
         _proto.bindClickEvent = function bindClickEvent() {
@@ -86,14 +86,13 @@ System.register(["cc"], function (_export, _context) {
         };
 
         _proto.onTouchCancel = function onTouchCancel(event) {
-          var _this2 = this;
-
           var location = event.getLocation();
           var touchPos = new Vec3(location.x - 480, location.y - 320);
-          this.touchPoint.setPosition(touchPos);
-          this.scheduleOnce(function () {
-            _this2.player.emit('FIRE_TO_POS', _this2.touchPoint.getPosition(), _this2.bulletForce);
-          }, 0); // console.warn("onTouchCancel", event);
+          this.touchPoint.setPosition(touchPos); // console.warn("onTouchCancel", event);
+        };
+
+        _proto.fire = function fire(kine) {
+          this.player.emit('FIRE_TO_POS', this.touchPoint.getPosition(), this.bulletForce, kine);
         };
 
         _proto.onTouchMove = function onTouchMove(event) {
